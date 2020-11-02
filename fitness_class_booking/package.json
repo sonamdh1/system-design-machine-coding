@@ -1,0 +1,25 @@
+{
+  "name": "system-design",
+  "version": "1.0.0",
+  "description": "System design for a problem statement",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./tests/app.js",
+    "dev": "nodemon ./server/index.js",
+    "build": "webpack"
+  },
+  "author": "Sonam Dhawan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "webpack": "^5.3.2"
+  }
+}
