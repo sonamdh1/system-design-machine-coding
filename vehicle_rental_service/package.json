@@ -1,0 +1,22 @@
+{
+  "name": "machine-code",
+  "version": "1.0.0",
+  "description": "implementing an application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sonam",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "webpack": "^5.3.2"
+  }
+}
